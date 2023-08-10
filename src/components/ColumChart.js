@@ -7,7 +7,6 @@ import ProductApi from "../data/ProductApi";
 class ColumnChart extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       isLoaded: true,
       data: {},
